@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<!--Definindo formato de codificação de caractere-->
+	<meta charset="UTF-8">
+	<!--Titulo do site no navegador-->
+	<title>Curso de HTML5 e CSS3 responsivo grátis</title>
+	<!--Define a descrição do site exibida nos resultados dos buscadores-->
+	<meta name="description" content="Curso prático de HTML5 e CSS3 Responsivo. Aprenda a construir um site do zero a hospedagem de maneira simples, fácil e eficiente">
+	<!--Orienta os buscadores a indexar o conteúdo da página e seguir todos os links para descobrir novas páginas-->
+	<meta name="robots" content="index, follow" > 
+	<!--Adicionando folha de estilo-->
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<!--Adicionando icone para favoritos--> 
+	<link rel="shortcut icon" href="img/favicon.ico">
+	<!--Adicionando viewport para controlar o layout em navegadores de dispositivos móveis-->
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+
+	<!--O código abaixo serve para fazer com que IE antigos passem a reconhecer os novos elementos do HTML5-->
+
+	<!--[if lt IE 9]>
+		<script src="js/html5shiv.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<div class="corpo verde fundo">
+		<header class="conteudo clearfix">
+			<a href="index.html" title="Bobrinha">
+				<img class="logo animated pulse" src="img/logo.png" alt="Bobrinha Treinamentos" title="Bobrinha Cursos">
+			</a>
+			<nav class="menu bordas">
+				<ul>
+					<li><a href="https://www.w3schools.com/" target="_self" title="Início">HOME</a></li>
+					<li><a href="#" title="">ADOÇÃO</a></li>
+					<li><a href="#">VÍDEOS</a></li>
+					<li><a href="#">FALE CONOSCO</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<div class="corpo preto">
+			<div class="conteudo">
+				<div class="slide">
+					<img class="slide-imag" src="img/slide1.jpg" alt="Imagem 1">
+					<img class="slide-imag" src="img/slide2.jpg" alt="Imagem 1">
+					<img class="slide-imag" src="img/slide3.jpg" alt="Imagem 1">
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<section class="corpo">
+		<div class="conteudo">
+			<h1 class="titulo-pr fundo">Melhores amigos para adoção esperando por você</h1>
+			<p>A presença de um animal de estimação em casa traz <strong>felicidade e bem estar</strong>. Bolinhas de pelo alegres, fofinhas e cheias de vida, grandes ou pequenas, brancas, pretas, marrons ou amarelas, pulam e brincam o dia todo como se fossem brinquedinhos com energia infinita.</p>
+
+			<article class="sombra caixa caixa3 borda-card">
+				<img src="img/ted.jpg">
+				<h2 class="titulo texto-vermelho">Ted</h2>
+				<p>Dou-me bem com outros animais e sou um ótimo perfil para famílias com crianças ou idosos.</p>
+				<a href="#contato" title="Adote agora mesmo" class="botao botao-medio botao-vermelho bordas">Adotar</a>
+			</article>
+
+			<article class="sombra caixa caixa3 borda-card">
+				<img src="img/zezinho.jpg">
+				<h2 class="titulo texto-azul">Zezinho</h2>
+				<p>Eu tenho um comportamento calmo, sou brincalhão e bastante obediente.</p>
+				<a href="#contato" title="Adote agora mesmo" class="botao botao-medio botao-azul bordas">Adotar</a>
+			</article>
+
+			<article class="sombra caixa caixa3 borda-card">
+				<img src="img/simba.jpg">
+				<h2 class="titulo texto-amarelo">Simba</h2>
+				<p>Sou um leãozinho branco, sou bonzinho, carinhoso e amoroso, adoro receber carinho.</p>
+				<a href="#contato" title="Adote agora mesmo" class="botao botao-medio botao-amarelo bordas">Adotar</a>
+			</article>
+
+			<article class="sombra caixa caixa3 borda-card">
+				<img src="img/pacoca.jpg">
+				<h2 class="titulo texto-verde">Paçoca</h2>
+				<p>Tenho um bigodinho charmoso, sou muito companheiro e calmo gosto muito de brincar.</p>
+				<a href="#contato" title="Adote agora mesmo" class="botao botao-medio botao-verde bordas">Adotar</a>
+			</article>
+		</div>	
+	</section>
+
+	<section class="cinza clearfix">
+		<div class="conteudo">
+			<h1 class="titulo-pr">Vídeos de animais exóticos (possíveis) para ter em casa</h1>
+			<p>Quem disse que são só os peludinho, frufruzentos que podem ser adotados? Veja alguns animais que também pode ser ótimas opções para serem seus amigos de estimação. É claro que existe uma infinidade, mas abaixo você vai encontrar alguns comuns, dentre os exóticos, que você realmente pode ter em casa.</p>
+
+			<!--Inicio artigos exóticos-->
+			<article class="caixa caixa3">
+				<h2 class="titulo">Cacatua</h2>
+				<!--Adicionando videos local-->
+				<video controls>
+					<source src="media/videos/cacatua.mp4">
+					Desculpe! Seu seu navegador não suporta exibir o vídeo
+				</video>
+				<p>Lindo psitacídeo nativo da Austrália e de outras partes do pacifico. Chegam 80 cm de altura e peso de 2 kg. Estes animais podem viver mais de 70 anos. Precisam de atenção.</p>
+			</article>
+
+			 <article class="caixa caixa3">
+				<h2 class="titulo">Sagui</h2>
+				<!--Incorpoção de video do vimeo-->
+				<iframe src="https://player.vimeo.com/video/126352750?byline=0" allowfullscreen></iframe>
+				<p>Um macaquinho que chega a 10 cm de altura, está na classe dos exótico mais populares para se ter como pet. Animal que se desde pequeno é domesticado, vive numa boa com seu dono.</p>
+			</article>
+
+			<article class="caixa caixa3">
+				<h2 class="titulo">Coruja</h2>
+				<!--Incorpoção de video do youtube-->
+				<iframe src="https://www.youtube.com/embed/1OTlltSnM-w" allowfullscreen></iframe>
+				<p>Existem várias espécies de coruja, símbolo de sabedoria, essa ave é um excelente animal de estimação, pois elas são fieis ao dono e apresentam um hábito muito tranquilo. </p>
+			</article>
+
+			<article class="caixa caixa3">
+				<h2 class="titulo">Som dos animais</h2>
+				<!--Inicio audios-->
+				<ul class="audios">
+					<li>
+						<p>Cachorro latindo alto</p>
+						<audio controls src="media/audios/cachorro_latindo_alto.mp3">
+							Desculpe! Seu navegador não suporta exibir o áudio
+						</audio>
+					</li>
+					<li>
+						<p>Cachorro chorando</p>
+						<audio controls src="media/audios/cachorro_chorando.mp3">
+							Desculpe! Seu navegador não suporta exibir o áudio
+						</audio>
+					</li>
+					<li>
+						<p>Coruja fofa</p>
+						<audio controls src="media/audios/coruja.mp3">
+							Desculpe! Seu navegador não suporta exibir o áudio
+						</audio>
+					</li>
+				</ul>
+				<!--fim audios-->
+			</article>
+		</div>
+	</section>
+
+	<section>
+		<div class="conteudo">
+			<div class="caixa caixa6">
+				<h1 class="titulo-pr">Onde Estamos</h1>
+				<ul class="address">
+					<li>
+						<img src="img/endereco.png">
+						<address>Endereço completo, cidade - UF, CEP: 00000-000</address>
+					</li>
+					<li>
+						<img src="img/telefone.png">
+						<p>Telefone: (00) 00000-0000</p>
+					</li>
+					<li>
+						<img src="img/email.png">
+						<a href="mailto:jeronimogbariel@gmail.com">
+							E-mail: jeronimogbriel@gmail.com
+						</a>
+					</li>
+					<li>
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.3076060272774!2d-35.49168525002559!3d-6.85368399502273!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7adb41d4e01ac73%3A0xf844b07bd8027b12!2sAv.+Dom+Pedro+II+-+Centro%2C+Guarabira+-+PB%2C+58200-000!5e0!3m2!1spt-BR!2sbr!4v1549281050766" style="border: 0;"></iframe>
+					</li>
+				</ul>
+			</div>
+			<div class="caixa caixa6">
+				<h1 class="titulo-pr">Fale Conosco!</h1>
+				<form>
+					<input type="text" name="" placeholder="Nome" required>
+					<input type="email" name="" placeholder="E-mail" required>
+					<textarea required placeholder="Mensagem"></textarea>
+					<button class="botao botao-grande botao-azul bordas">Enviar mensagem</button>
+				</form>
+			</div>
+		</div>
+	</section>
+
+	<footer class="preto clearfix">
+		<div class="conteudo">
+			<p>&copy; 2019 - Bobrinha Treinamentos. Todos Os Direitos Reservados.</p>
+			<span>
+				Este site é um projeto final em sua primeira versão do curso de HTML5 e CSS3 Responsivo do Bobrinha.com. Serve apenas para ilustração parcial do conteúdo aprendido no curso. O curso ensina do zero ao registro de domínio e hospedagem, e apos apresenta outros conceitos fundamentais do HTML5 e CSS3 para aumentar todo conhecimento já adquirido sendo um curso completo e de fácil aprendizagem indicado para todos que desejam de forma profissional ingressar no mundo do desenvolvimento web desde o inicio.
+			</span>
+			 <!--Inicio icones social links-->
+                <ul class="social">
+                    <li>
+                        <a href="http://twitter.com/bobrinhacursos" title="Twitter" target="_blank">
+                            <img src="img/twitter.png" title="Twitter" alt="Twitter"/>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://www.facebook.com/bobrinhacursos" title="Facebook" target="_blank">
+                            <img src="img/facebook.png" title="Facebook" alt="Facebook"/>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://www.youtube.com/c/Bobrinha" title="Youtube" target="_blank">
+                            <img src="img/youtube.png" title="Youtube" alt="Youtube"/>
+                        </a>
+                    </li>
+                </ul>
+                <!--Fim icones social-->
+		</div>
+	</footer>
+</body>
+</html>
